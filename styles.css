@@ -1,7 +1,23 @@
-*{
-    border: 2px solid red;
+* {
+  border: 2px solid red;
 }
-body{
-    border: 2px solid green;
-    padding: 0px 150px;
+body {
+  border: 2px solid green;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section1 {
+  background-color: lightcoral;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.links {
+  display: flex;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  gap: 20px;
 }
