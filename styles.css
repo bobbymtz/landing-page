@@ -17,6 +17,16 @@ body {
   padding-right: 150px;
   padding-top: 20px;
 }
+.section2{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    border: 2px solid red;
+    gap: 10px;
+}
 .logo {
   color: #f9faf8;
   font-size: 24px;
@@ -29,4 +39,14 @@ body {
   gap: 20px;
   color: #e5e7eb;
   font-size: 18px;
+}
+.right,.left{
+    border: 2px solid red;
+    width: 50%;
+}
+.right{
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
