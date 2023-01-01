@@ -86,11 +86,9 @@ ul {
   display: flex;
   justify-content: center;
   gap: 30px;
-  border: 2px solid red;
 }
 
 .container {
-  border: 2px solid orange;
   width: 150px;
   display: flex;
   flex-direction: column;
@@ -109,4 +107,30 @@ ul {
   font-size: 36px;
   font-weight: bold;
   color: #1f2937;
+}
+.section4{
+  padding-left: 150px;
+  padding-right: 150px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  background-color: #e5e7eb;
+  border: 2px solid green;
+}
+.quote{
+  width: 780px;
+  align-self: center;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+  border: 2px solid blue;
+}
+.author{
+  align-self: center;
+  width: 780px;
+  border: 2px solid red;
+  text-align: end;
+  font-weight: bold;
+  font-size: 18px;
 }
